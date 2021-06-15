@@ -14,21 +14,21 @@
 
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo" href="#">
-          <img src="img/sprite/icon-logo.svg" />
+        <a class="header__logo" href="#" aria-label="Перейти на главную страницу">
+          <img src="img/sprite/icon-logo.svg" width="63" height="52" alt="Логотип" />
         </a>
         <nav class="main-nav">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item">
+            <li class="main-nav__item site-list__item">
               <a class="site-list__link" href="#">Почему мы?</a>
             </li>
-            <li class="site-list__item">
+            <li class="main-nav__item site-list__item">
               <a class="site-list__link" href="#">Номера</a>
             </li>
-            <li class="site-list__item">
+            <li class="main-nav__item site-list__item">
               <a class="site-list__link" href="#">Отзывы</a>
             </li>
-            <li class="site-list__item">
+            <li class="main-nav__item site-list__item">
               <a class="site-list__link" href="#">Как нас найти</a>
             </li>
           </ul>
@@ -39,12 +39,19 @@
     <main class="main">
       <section class="banner">
         <div class="banner__container container">
-          <p class="banner__text">
+          <div class="banner__text">
             <span class="banner__text-address">Санкт-Петербург</span>
             <b class="banner__text-site-name">Котейка</b>
             <h1 class="banner__text-site-title">Уютная гостиница для котов и кошек</h1>
-          </p>
-          <a class="banner__button button" href="#">Забронировать</a>
+          </div>
+          <a class="banner__button button" href="#">
+            Забронировать
+            <span class="button__paw">
+              <svg width="21" height="18">
+                <use xlink:href="#icon-paw"></use>
+              </svg>
+            </span>
+          </a>
         </div>
       </section>
 

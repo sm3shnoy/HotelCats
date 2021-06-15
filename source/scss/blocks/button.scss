@@ -1,0 +1,50 @@
+.button {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 0.4375em 0.4375em 0.4375em 1.875em;
+
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: 600;
+  color: $main-color-text;
+  vertical-align: middle;
+
+  background-color: $main-bg-color;
+  box-shadow: 0 .3125em 1.5625em $main-box-shadow;
+  border-radius: 1.5625em;
+  transition: all 0.2s ease;
+
+  &:hover,
+  &:focus {
+    color: $third-color-text;
+
+    background-color: $third-bg-color;
+
+    .button__paw {
+      background-color: $main-bg-color;
+
+      svg {
+        fill: $third-bg-color;
+      }
+    }
+  }
+}
+
+.button__paw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  margin-left: 1.25em;
+
+  background-color: $third-bg-color;
+  border-radius: 100%;
+  transition: all 0.2s ease;
+
+  svg {
+    fill: $main-bg-color;
+    transition: all 0.2s ease;
+  }
+}

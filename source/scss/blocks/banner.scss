@@ -1,0 +1,53 @@
+.banner {
+  padding: 9.5625rem 0;
+
+  background-color: $secondary-bg-color;
+  background-image:
+    url('../img/banner-mask@1x.png'),
+    url('../img/banner-bg@1x.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, cover;
+  background-position: left center, center;
+}
+
+.banner__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__text {
+  @include reset;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__text-address {
+  margin-bottom: 0.9375em;
+
+  font-size: .875em;
+  line-height: 1.2;
+  font-weight: 400;
+  color: $main-color-text;
+}
+
+.banner__text-site-name {
+  margin-bottom: .4em;
+
+  font-size: 3.875em;
+  line-height: 1.185;
+  font-family: $secondary-fonts;
+}
+
+.banner__text-site-title {
+  @include reset;
+  margin-bottom: 2em;
+
+  font-size: 1.25em;
+  line-height: 1.2;
+  color: $main-color-text;
+  font-weight: 500;
+}
+
+.banner__button {
+
+}
