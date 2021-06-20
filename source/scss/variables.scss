@@ -1,8 +1,12 @@
 // Template Colors
 // Here you can add colors from theme
 $main-color-text: #1a212f;
+$secondary-color-text: #fac663;
+$third-color-text: #fffefd;
+
 $main-bg-color: #fffefd;
 $secondary-bg-color: #fac663;
+$third-bg-color: #ff7236;
 
 // Template breakpoints
 $mobile-width: 320px;
@@ -16,5 +20,6 @@ $retina-dppx: 1.5dppx;
 // Template fonts for body
 $main-fonts: "Lato", "Arial", "sans-serif";
 $secondary-fonts: "Rubik", "Arial", "sans-serif";
-$main-font-size: 14px;
-$main-font-weight: 400;
+
+// box-shadow
+$main-box-shadow: rgba(26, 33, 47, 0.1);
