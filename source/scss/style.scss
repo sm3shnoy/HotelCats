@@ -1,0 +1,16 @@
+@import "normalize.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "scaffolding.scss";
+@import "blocks/button.scss";
+@import "blocks/h2.scss";
+@import "blocks/slider.scss";
+
+// here another imports
+@import "blocks/header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/menu-list.scss";
+@import "blocks/banner.scss";
+@import "blocks/features.scss";
+@import "blocks/apartments.scss";
