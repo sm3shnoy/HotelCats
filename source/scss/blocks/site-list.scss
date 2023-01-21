@@ -1,0 +1,11 @@
+.site-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-list__link {
+  font-family: $secondary-fonts;
+  font-size: 1.25rem;
+  line-height: 1.185;
+  color: $main-color-text;
+}

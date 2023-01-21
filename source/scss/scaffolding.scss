@@ -4,6 +4,7 @@ body {
   padding: 0;
 
   font-family: $main-fonts;
+  font-size: 1em;
   color: $main-color-text;
 
   background-color: #ffffff;
@@ -44,19 +45,20 @@ html {
 }
 
 .container {
-  max-width: $desktop-width + 20px;
-  padding: 0 20px;
+  max-width: $mobile-width + 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
-@media (max-width: $tablet-width) {
+@media (min-width: $tablet-width) {
   .container {
-    width: $tablet-width;
+    max-width: $tablet-width;
   }
 }
 
-@media (max-width: $mobile-width) {
+@media (min-width: $desktop-width) {
   .container {
-    width: $mobile-width;
+    max-width: $desktop-width;
+    padding: 0 20px;
   }
 }

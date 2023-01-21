@@ -104,8 +104,8 @@
   src:
     local("Rubik-Regular"),
     local("Rubik Regular"),
-    url("../fonts/rubik/Rubik-Regular.woff") format("woff"),
-    url("../fonts/rubik/Rubik-Regular.woff2") format("woff2");
+    url("../fonts/rubik/rubik-regular.woff") format("woff"),
+    url("../fonts/rubik/rubik-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -114,10 +114,10 @@
 @font-face {
   font-family: "Rubik";
   src:
-    local("Rubic-Italic"),
-    local("Rubic Italic"),
-    url("../fonts/rubik/Rubik-Italic.woff") format("woff"),
-    url("../fonts/rubik/Rubik-Italic.woff2") format("woff2");
+    local("Rubik-Italic"),
+    local("Rubik Italic"),
+    url("../fonts/rubik/rubik-italic.woff") format("woff"),
+    url("../fonts/rubik/rubik-italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -126,10 +126,10 @@
 @font-face {
   font-family: "Rubik";
   src:
-    local("Rubic-Medium"),
-    local("Rubic Medium"),
-    url("../fonts/rubik/Rubik-Medium.woff") format("woff"),
-    url("../fonts/rubik/Rubik-Medium.woff2") format("woff2");
+    local("Rubik-Medium"),
+    local("Rubik Medium"),
+    url("../fonts/rubik/rubik-medium.woff") format("woff"),
+    url("../fonts/rubik/rubik-medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -140,8 +140,8 @@
   src:
     local("Rubik-Medium-Italic"),
     local("Rubik Medium Italic"),
-    url("../fonts/rubik/Rubik-MediumItalic.woff") format("woff"),
-    url("../fonts/rubik/Rubik-MediumItalic.woff2") format("woff2");
+    url("../fonts/rubik/rubik-medium-italic.woff") format("woff"),
+    url("../fonts/rubik/rubik-medium-italic.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -152,8 +152,8 @@
   src:
     local("Rubik-Bold"),
     local("Rubik Bold"),
-    url("../fonts/rubik/Rubik-Bold.woff") format("woff"),
-    url("../fonts/rubik/Rubik-Bold.woff2") format("woff2");
+    url("../fonts/rubik/rubik-bold.woff") format("woff"),
+    url("../fonts/rubik/rubik-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -164,8 +164,8 @@
   src:
     local("Rubik-Bold-Italic"),
     local("Rubik Bold Italic"),
-    url("../fonts/rubik/Rubik-BoldItalic.woff") format("woff"),
-    url("../fonts/rubik/Rubik-BoldItalic.woff2") format("woff2");
+    url("../fonts/rubik/rubik-bold-italic.woff") format("woff"),
+    url("../fonts/rubik/rubik-bold-italic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -176,8 +176,8 @@
   src:
     local("Rubik-Black"),
     local("Rubik Black"),
-    url("../fonts/rubik/Rubik-Black.woff") format("woff"),
-    url("../fonts/rubik/Rubik-Black.woff2") format("woff2");
+    url("../fonts/rubik/rubik-black.woff") format("woff"),
+    url("../fonts/rubik/rubik-black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -188,8 +188,8 @@
   src:
     local("Rubik-Black-Italic"),
     local("Rubik Black Italic"),
-    url("../fonts/rubik/Rubik-BlackItalic.woff") format("woff"),
-    url("../fonts/rubik/Rubik-BlackItalic.woff2") format("woff2");
+    url("../fonts/rubik/rubik-black-italic.woff") format("woff"),
+    url("../fonts/rubik/rubik-black-italic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
