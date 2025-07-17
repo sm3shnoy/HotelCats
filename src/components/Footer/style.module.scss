@@ -1,0 +1,41 @@
+.footer {
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+}
+
+.logo {
+  margin-bottom: 25px;
+}
+
+.footerBottom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: calc(100% + 30px);
+    height: 1px;
+    background-color: $fifth-bg-color;
+  }
+}
+
+.copyright,
+.policy {
+  font-family: $main-fonts;
+  font-size: 12px;
+  color: $fourth-color-text;
+}
+
+.copyright {
+  margin-bottom: 20px;
+}

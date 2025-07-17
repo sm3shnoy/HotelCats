@@ -1,0 +1,56 @@
+@use "sass:map";
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin visuallyHidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+$breakpoints: (
+  // mobile
+  xxs: 320,
+  // tablet
+  sm: 768,
+  // desktop
+  md: 1140
+);
+
+@mixin media-breakpoint-up($key, $offset: 0) {
+  $width: map.get($breakpoints, $key);
+
+  @media (min-width: (($width + $offset) + px)) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @include media-breakpoint-up(sm) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @include media-breakpoint-up(md) {
+    @content;
+  }
+}

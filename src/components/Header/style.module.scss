@@ -1,0 +1,22 @@
+.header {
+  background-color: $main-bg-color;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+
+  @include tablet() {
+    padding: 12px 45px;
+  }
+
+  @include desktop() {
+    padding: 12px 98px;
+  }
+}
+
+.logo {
+  z-index: 2;
+}

@@ -1,0 +1,35 @@
+.list {
+  @include reset-list;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22px, 1fr));
+  grid-gap: 20px;
+
+  @include tablet() {
+    display: none;
+  }
+}
+
+.link {
+  display: flex;
+
+  svg {
+    transition: ease 0.2s;
+  }
+
+  &Vk:hover svg {
+    fill: #0077ff;
+  }
+
+  &Insta:hover svg {
+    fill: #ff4a49;
+  }
+
+  &Fb:hover svg {
+    fill: #1278f2;
+  }
+}
+
+.visuallyHidden {
+  @include visuallyHidden();
+}

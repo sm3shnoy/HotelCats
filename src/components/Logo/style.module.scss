@@ -1,0 +1,11 @@
+.logo {
+  position: relative;
+  display: flex;
+
+  img {
+    @include tablet() {
+      width: 63px;
+      height: 52px;
+    }
+  }
+}

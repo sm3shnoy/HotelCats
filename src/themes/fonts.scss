@@ -1,0 +1,163 @@
+// Lato
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Regular"), local("Lato Regular"),
+    url("./fonts/lato/latoregular.woff") format("woff"),
+    url("./fonts/lato/latoregular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Italic"), local("Lato Italic"),
+    url("./fonts/lato/latoitalic.woff") format("woff"),
+    url("./fonts/lato/latoitalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Semibold"), local("Lato Semibold"),
+    url("./fonts/lato/latosemibold.woff") format("woff"),
+    url("./fonts/lato/latosemibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Semibold-Italic"), local("Lato Semibold Italic"),
+    url("./fonts/lato/latosemibolditalic.woff") format("woff"),
+    url("./fonts/lato/latosemibolditalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Bold"), local("Lato Bold"),
+    url("./fonts/lato/latobold.woff") format("woff"),
+    url("./fonts/lato/latobold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Bold-Italic"), local("Lato Bold Italic"),
+    url("./fonts/lato/latobolditalic.woff") format("woff"),
+    url("./fonts/lato/latobolditalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Black"), local("Lato Black"),
+    url("./fonts/lato/latoblack.woff") format("woff"),
+    url("./fonts/lato/latoblack.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Black-Italic"), local("Lato Black Italic"),
+    url("./fonts/lato/latoblackitalic.woff") format("woff"),
+    url("./fonts/lato/latoblackitalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Rubik
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Regular"), local("Rubik Regular"),
+    url("./fonts/rubik/rubik-regular.woff") format("woff"),
+    url("./fonts/rubik/rubik-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Italic"), local("Rubik Italic"),
+    url("./fonts/rubik/rubik-italic.woff") format("woff"),
+    url("./fonts/rubik/rubik-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Medium"), local("Rubik Medium"),
+    url("./fonts/rubik/rubik-medium.woff") format("woff"),
+    url("./fonts/rubik/rubik-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Medium-Italic"), local("Rubik Medium Italic"),
+    url("./fonts/rubik/rubik-medium-italic.woff") format("woff"),
+    url("./fonts/rubik/rubik-medium-italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Bold"), local("Rubik Bold"),
+    url("./fonts/rubik/rubik-bold.woff") format("woff"),
+    url("./fonts/rubik/rubik-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Bold-Italic"), local("Rubik Bold Italic"),
+    url("./fonts/rubik/rubik-bold-italic.woff") format("woff"),
+    url("./fonts/rubik/rubik-bold-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Black"), local("Rubik Black"),
+    url("./fonts/rubik/rubik-black.woff") format("woff"),
+    url("./fonts/rubik/rubik-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Black-Italic"), local("Rubik Black Italic"),
+    url("./fonts/rubik/rubik-black-italic.woff") format("woff"),
+    url("./fonts/rubik/rubik-black-italic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
